@@ -25,7 +25,7 @@ export const fetchData = () => {
     dispatch(fetchUserRequest);
     axios
       .get(
-        "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=ee6b965b04b94b2d8376bfae914af2be"
+        "https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=ee6b965b04b94b2d8376bfae914af2be"
       )
       .then((responce) => {
         const data = responce.data.articles;
