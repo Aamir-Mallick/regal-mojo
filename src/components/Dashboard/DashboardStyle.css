@@ -1,0 +1,27 @@
+.dashboard-main-container {
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  padding-left: 3rem;
+}
+.card-container {
+  width: 240px;
+  border: 1px solid #cacaca;
+  margin: 10px;
+}
+.card-container h3 {
+  text-align: center;
+  overflow: hidden;
+  width: 240px;
+  height: 100px;
+  overflow: hidden;
+}
+.description {
+  width: 240px;
+  height: 100px;
+}
+.card-container span {
+  display: inline-block;
+  margin-left: 30px;
+}

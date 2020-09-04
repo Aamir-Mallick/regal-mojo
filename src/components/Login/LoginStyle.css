@@ -1,0 +1,35 @@
+.login-main-container {
+  width: 400px;
+  margin: 2px auto;
+  border: 1px solid #cacaca;
+  background-color: #ede6e4;
+  padding: 5px 20px;
+  height: 400px;
+}
+.forget-password {
+  border: 1px solid #cacaca;
+  text-align: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.forget-password:hover {
+  border: 1px solid #cacaca;
+  text-align: center;
+  margin-top: 50px;
+  cursor: pointer;
+  background-color: #dfd8d8;
+}
+
+.register {
+  border: 1px solid #cacaca;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.register:hover {
+  border: 1px solid #cacaca;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #dfd8d8;
+}
